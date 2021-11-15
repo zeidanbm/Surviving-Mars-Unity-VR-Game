@@ -1,0 +1,38 @@
+This packages contains three scripts:
+-Door.cs
+-FlashingLight.cs
+-Mill_rotate.cs
+
+
+========================================
+Door.cs
+========================================
+
+This script takes care of opening and closing of doors.
+It needs to be placed on a gameobject. That gameobject must have a boxcollider with "isTrigger" switched on. When this collider is triggered, the doors will open.
+The script has the following parameters:
+*DoorSpeed: The speed with which the doors will open/close.
+*CloseAfterSeconds: The doors will close automatically after the number of seconds entered here.
+*LeftDoor: The gameobject that represents the left door.
+*RightDoor: The gameobject that represents the right door.
+*MoveDistance: The distance the doors will slide. A door with a width of 1 should have the value 1 here.
+
+The GameObject that this script is attached to should also have an audiosource. The file in this source will be played when the door opens or closes.
+
+========================================
+FlashingLight.cs
+========================================
+This is a simple script that takes a lightsource as parameter.
+The only other parameter is the FlashSpeed. The lightsource will be switched on and off in the frequency of the given lightspeed
+
+========================================
+Mill_Rotate.cs
+========================================
+This script takes care of the rotating of the windmills.
+It takes one parameter: speed. This is the rotatingspeed of the wings of the mill.
+
+If you have any questions about these scripts, or anout anything else in this packages, please contact me via info@devjockeys.com.
+
+Enjoy!
+
+
